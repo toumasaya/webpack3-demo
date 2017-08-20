@@ -135,11 +135,11 @@ module.exports = (env) => {
       title: 'Webpack demo',
       filename: 'index.html'
     })
-    // parts.page({
-    //   title: 'Page1 demo',
-    //   template: `${PATHS.app}/view/page1.pug`,
-    //   filename: 'page1.html'
-    // })
+    parts.page({
+      title: 'Page1 demo',
+      template: `${PATHS.app}/view/page1.pug`,
+      filename: 'page1.html'
+    })
   ]
 
   const config = env === 'production' ? productionConfig : developmentConfig
