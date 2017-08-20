@@ -134,7 +134,7 @@ module.exports = (env) => {
     parts.page({
       title: 'Webpack demo',
       filename: 'index.html'
-    })
+    }),
     parts.page({
       title: 'Page1 demo',
       template: `${PATHS.app}/view/page1.pug`,
