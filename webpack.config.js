@@ -52,7 +52,8 @@ const productionConfig = merge([
     },
     output: {
       chunkFilename: '[name].[chunkhash:8].js',
-      filename: 'js/[name].[chunkhash:8].js'
+      filename: 'js/[name].[chunkhash:8].js',
+      publicPath: '/webpack3-demo/'
     },
     plugins: [
       new webpack.HashedModuleIdsPlugin()
